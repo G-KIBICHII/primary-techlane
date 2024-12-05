@@ -1,0 +1,13 @@
+# Ignore the virtual environment in the backend
+backend/env/
+
+# Ignore the node_modules folder in the frontend
+frontend/node_modules/
+
+# Optional: Ignore system or IDE files (common practice)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
