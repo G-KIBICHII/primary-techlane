@@ -28,7 +28,7 @@ function NavBar() {
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to="/">
-                        <Navbar.Brand><i className="mb-2 fas fa-home"> Home</i></Navbar.Brand>
+                        <Navbar.Brand><i className="mb-2 fas fa-home">Techlane</i></Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
