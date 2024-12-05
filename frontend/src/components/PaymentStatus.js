@@ -20,7 +20,7 @@ const PaymentStatus = () => {
                         <br />
                         <span className="mb-2" style={{ display: "flex" }}>
                             {boughtData.name},
-                            ₹{boughtData.price} <i className="text-primary ml-1 mt-1 fas fa-check-circle"></i>
+                            ksh {boughtData.price} <i className="text-primary ml-1 mt-1 fas fa-check-circle"></i>
                         </span>
                         <Link to="/all-orders/">Go to orders page</Link>
                     </Card>

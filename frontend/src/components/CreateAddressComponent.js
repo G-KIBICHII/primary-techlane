@@ -80,7 +80,7 @@ const CreateAddressComponent = ({ toggleCreateAddress }) => {
                                 Phone Number
                             </Form.Label>
                             <InputGroup>
-                                <InputGroup.Text>+91</InputGroup.Text>
+                                <InputGroup.Text>+254 </InputGroup.Text>
                                 <Form.Control
                                     type="text"
                                     placeholder="phone number"

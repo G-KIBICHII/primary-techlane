@@ -81,7 +81,7 @@ const ChargeCardComponent = ({ product, match, selectedAddressId, addressSelecte
                     </Button>
                     :
                     <Button variant="primary" type="submit" style={{ width: "100%" }}>
-                        Pay ₹{product.price}
+                        Pay ksh {product.price}
                     </Button>
                 }
             </Form>
@@ -99,10 +99,10 @@ const ChargeCardComponent = ({ product, match, selectedAddressId, addressSelecte
                         <p><b>Name: </b>{address ? address.name : ""}</p>
                         <p><b>Phone Number: </b>{address ? address.phone_number : ""}</p>
                         <p><b>House Number: </b>{address ? address.house_no : ""}</p>
-                        <p><b>Landmark: </b>{address ? address.landmark : ""}</p>
+                        <p><b>Estate/Apartment: </b>{address ? address.landmark : ""}</p>
                         <p><b>City: </b>{address ? address.city : ""}</p>
                         <p><b>State: </b>{address ? address.state : ""}</p>
-                        <p><b>Pin Code/Zip Code: </b>{address ? address.pin_code : ""}</p>
+                        <p><b>Postal Code: </b>{address ? address.pin_code : ""}</p>
                     </div>
                     :
                     ""

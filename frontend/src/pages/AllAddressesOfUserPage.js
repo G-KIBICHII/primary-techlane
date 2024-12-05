@@ -148,7 +148,7 @@ function AllAddressesOfUserPage() {
 
                     >
                         <span><b>Name: </b>{address.name}</span>
-                        <span><b>Phone No: </b>+91 {address.phone_number}</span>
+                        <span><b>Phone No: </b>+254 {address.phone_number}</span>
                         <span><b>Address: </b>{address.house_no},
                             near {address.landmark}, {address.city}, {address.state},
                             {address.pin_code}
